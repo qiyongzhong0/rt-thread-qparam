@@ -107,7 +107,7 @@ qparam package 遵循 LGPLv2.1 许可，详见 `LICENSE` 文件。
 ### 2.3获取组件
 
 - **方式1：**
-通过 *Env配置工具* 或 *RT-Thread studio* 开启软件包，根据需要配置各项参数；配置路径为 *RT-Thread online packages -> miscellaneous packages -> quick param* 
+通过 *Env配置工具* 或 *RT-Thread studio* 开启软件包，根据需要配置各项参数；配置路径为 *RT-Thread online packages -> miscellaneous packages -> qparam* 
 
 
 ### 2.4配置参数说明
@@ -123,6 +123,12 @@ qparam package 遵循 LGPLv2.1 许可，详见 `LICENSE` 文件。
 | PARAM_SECTOR_SIZE         | 保存参数的flash扇区尺寸
 | PARAM_SAVE_ADDR           | 保存参数的偏移地址
 | PARAM_SAVE_ADDR_BAK       | 保存备份参数的偏移地址
+
+### 2.5使用说明
+
+1. 在** RT-Thread Studio **中双击工程下的** RT-Thread Settings **，添加qparam软件包到工程中，组件各项配置参数推荐使用默认。
+1. 将qparam软件包port目录下有两个文件复制到应用目录下，这两个文件是参数定义的模板，可参照模板示例定义自己需要的参数项。
+1. 程序运行后，可通过控制台使用命令`param list`列表查看各项参数值，可使用命令`param write`修改参数值。
 
 ## 3. 联系方式
 

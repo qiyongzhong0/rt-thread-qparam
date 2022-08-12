@@ -13,11 +13,11 @@
 #include <rtconfig.h>
 #include <param_index.h>
 
-//#define PKG_USING_PARAM
+//#define PKG_USING_QPARAM
 //#define PARAM_USING_INDEX       //using index fast read/write param
 //#define PARAM_USING_CLI         //using command line list/read/write... param
 //#define PARAM_USING_AUTO_INIT   //using automatic initialize and load from flash
-//#define PARAM_USING_AUTO_SAVE   //using automatic save
+//#define PARAM_USING_AUTO_SAVE   //using automatic save into flash
 
 #ifndef PARAM_AUTO_SAVE_DELAY
 #define PARAM_AUTO_SAVE_DELAY   2000
