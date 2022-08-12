@@ -11,10 +11,10 @@
 ``` 
 qparam
 ├───inc                     // 头文件目录
-│   └───param.h           	// API 接口头文件
+│   └───param.h             // API 接口头文件
 ├───src                     // 源码目录
 │   └───param.c             // 源代码文件
-├───port                    // 源码目录
+├───port                    // 接口目录
 │   |   param_def.h         // 参数定义头文件
 │   └───param_index.h       // 参数索引定义头文件
 │   license                 // 软件包许可证
