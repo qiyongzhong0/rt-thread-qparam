@@ -70,14 +70,14 @@ qparam package 遵循 LGPLv2.1 许可，详见 `LICENSE` 文件。
 - 功能 ：通过参数名读取参数值
 - 参数 ：name--参数名称
 - 参数 ：addr--保存参数值的变量指针
-- 参数 ：addr--保存参数值的变量尺寸
+- 参数 ：size--保存参数值的变量尺寸
 - 返回 ：0--成功, <0--失败
 
 #### int param_write_by_name(char *name, const void *addr, int size);
 - 功能 ：通过参数名修改参数值
 - 参数 ：name--参数名称
 - 参数 ：addr--保存参数值的变量指针
-- 参数 ：addr--保存参数值的变量尺寸
+- 参数 ：size--保存参数值的变量尺寸
 - 返回 ：0--成功, <0--失败
 
 #### const char *param_get_name(int idx);;
@@ -94,14 +94,14 @@ qparam package 遵循 LGPLv2.1 许可，详见 `LICENSE` 文件。
 - 功能 ：通过索引读取参数值
 - 参数 ：idx--参数索引
 - 参数 ：addr--保存参数值的变量指针
-- 参数 ：addr--保存参数值的变量尺寸
+- 参数 ：size--保存参数值的变量尺寸
 - 返回 ：0--成功, <0--失败
 
 #### int param_write_by_index(int idx, const void *addr, int size);
 - 功能 ：通过索引修改参数值
 - 参数 ：idx--参数索引
 - 参数 ：addr--保存参数值的变量指针
-- 参数 ：addr--保存参数值的变量尺寸
+- 参数 ：size--保存参数值的变量尺寸
 - 返回 ：0--成功, <0--失败
 
 ### 2.3获取组件
