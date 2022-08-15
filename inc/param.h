@@ -49,7 +49,7 @@
 int param_init(void);
 
 /* 
- * @brief   initialize parameter module
+ * @brief   deinitialize parameter module
  * @param   none
  * @retval  none
  */

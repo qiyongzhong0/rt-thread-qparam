@@ -1029,11 +1029,11 @@ static void param_cmd(int argc, char **argv)
     if (argc < 2)
     {
         PARAM_PRINT("Usage: \n");
-        PARAM_PRINT("param init              -Load param from flash.\n");
+        PARAM_PRINT("param init              -Initialize parameter module.\n");
         PARAM_PRINT("param list              -List display all params.\n");
-        PARAM_PRINT("param load              -Save all params from flash.\n");
+        PARAM_PRINT("param load              -Load all params from flash.\n");
         PARAM_PRINT("param save              -Save all params to flash.\n");
-        PARAM_PRINT("param resume name       -Resume the params to default by name.\n");
+        PARAM_PRINT("param resume name       -Resume the param to default by name.\n");
         PARAM_PRINT("param read name         -Read the param by name.\n");
         PARAM_PRINT("param write name val    -Write the param by name.\n");
         PARAM_PRINT("\n");
